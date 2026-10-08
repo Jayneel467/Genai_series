@@ -1,0 +1,28 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and generated files
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+apps/.agents/
+
+# Runtime data and local databases
+doc_files/
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+vector_db/
